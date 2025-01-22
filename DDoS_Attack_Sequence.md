@@ -2,6 +2,6 @@
 ```mermaid
   graph TD;
       Attacker-->BotNet;
-      Botnet-->Webserver;
+      BotNet-->Webserver;
       Webserver-->Firewall;
 ```
