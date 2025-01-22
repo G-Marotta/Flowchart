@@ -4,5 +4,4 @@
       Attacker-->BotNet;
       Botnet-->Webserver;
       Webserver-->Botnet;
-      Attacker-->Webserver;
 ```
