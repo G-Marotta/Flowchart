@@ -1,6 +1,6 @@
 # This is a mermaid test
 ```mermaid
-  graph TD;
+  SequenceDiagram;
 participant Attacker
 Participant Botnet
 Participant Webserver
