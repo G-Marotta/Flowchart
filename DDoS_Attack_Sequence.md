@@ -1,7 +1,11 @@
 # This is a mermaid test
 ```mermaid
   graph TD;
-      Attacker-->BotNet [create bots];
+participant Attacker
+Participant Botnet
+Participant Webserver
+Participant Firewall
+      Attacker-->BotNet;
       BotNet-->Webserver;
       Webserver-->Firewall;
 ```
