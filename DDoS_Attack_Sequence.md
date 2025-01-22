@@ -6,6 +6,5 @@ sequenceDiagram
     participant Webserver
     participant Firewall
     Attacker->>BotNet: create bots
-    BotNet->>Attacker: created
     Attacker->>BotNet: Flood server
 ```
