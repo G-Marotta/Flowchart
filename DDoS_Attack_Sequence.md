@@ -1,8 +1,8 @@
 # This is a mermaid test
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+      Attacker-->BotNet;
+      Botnet-->Webserver;
+      Webserver-->Botnet;
+      Attacker-->Webserver;
 ```
