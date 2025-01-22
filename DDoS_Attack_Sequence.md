@@ -3,5 +3,5 @@
   graph TD;
       Attacker-->BotNet;
       Botnet-->Webserver;
-      Webserver-->Botnet;
+      Webserver-->Firewall;
 ```
