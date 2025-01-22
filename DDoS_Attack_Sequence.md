@@ -1,9 +1,11 @@
 # This is a mermaid test
 ```mermaid
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Bob->>Alice: Hi Alice
-    Alice->>Bob: Hi Bob
+    participant Attacker
+    participant BotNet
+    participant Webserver
+    participant Firewall
+    Attacker->>BotNet: create bots
+    BotNet->>Attacker: created
 
 ```
