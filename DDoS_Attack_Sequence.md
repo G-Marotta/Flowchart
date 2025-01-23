@@ -8,5 +8,5 @@ sequenceDiagram
     Attacker->>BotNet: create bots
     Attacker->>BotNet: attack server
     BotNet->>Webserver: sends flood of requests
-    
+    Webserver->>Firewall: High traffic slows server
 ```
