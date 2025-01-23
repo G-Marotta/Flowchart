@@ -18,4 +18,4 @@ sequenceDiagram
 2. Attacker initializes the attack once the bots are made
 3. The BotNet floods the Webserver with bots that slow down the server
 4. The unusually high traffic causes the firewall to respond
-5. The firewall blocks the attackers robots by blocking out the source IP address and stops the attack
+5. The firewall stops the attackers bots by blocking out the source IP address 
