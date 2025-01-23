@@ -10,4 +10,5 @@ sequenceDiagram
     BotNet->>Webserver: sends flood of requests
     Webserver->>Firewall: High traffic slows server
     Firewall->>Webserver: Detects unusual traffic
+    Firewall->>BotNet: Blocks bots
 ```
