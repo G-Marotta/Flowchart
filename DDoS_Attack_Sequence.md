@@ -7,5 +7,5 @@ sequenceDiagram
     participant Webserver
     Attacker->>BotNet: create bots
     Attacker->>BotNet: attack server
-    BotNet->>Firewall: attacking server
+    BotNet->>Webserver: sends flood of requests
 ```
