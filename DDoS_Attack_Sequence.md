@@ -9,5 +9,5 @@ sequenceDiagram
     Attacker->>BotNet: ititalizes server attack
     BotNet->>Webserver: sends flood of requests
     Webserver->>Firewall: High traffic slows server
-    Firewall->>BotNet: Detects unusual traffic
+    Firewall->>Webserver: Detects unusual traffic
 ```
